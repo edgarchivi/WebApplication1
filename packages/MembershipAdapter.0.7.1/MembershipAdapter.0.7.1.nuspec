@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MembershipAdapter</id>
+    <version>0.7.1</version>
+    <title>Membership Adapter</title>
+    <authors>Alexander Christov</authors>
+    <owners>Alexander Christov</owners>
+    <licenseUrl>http://opensource.org/licenses/lgpl-3.0.html</licenseUrl>
+    <projectUrl>http://membershipadapter.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>MembershipProviderAdapter, RoleProviderAdapter and related classes. 
+WARNING: Not to be used in MVC4 since it's AccountController refers the new WebMatrix.WebData.SimpleMembershipProvider!</description>
+    <summary>Decouples MembershipUsers, Roles, and Settings for both MembershipProvider and RoleProvider. Developers' efforts are shifted towards adaptees rather than providers.</summary>
+    <releaseNotes>Settings refactored, now a self-initializable class (initialization may be overriden in a derifved class).</releaseNotes>
+    <copyright>The GNU Lesser General Public License, version 3.0</copyright>
+    <language>en-US</language>
+    <tags>MembershipProvider Adapter MembershipUser Configuration Settings</tags>
+    <references>
+      <reference file="MembershipAdapter.dll" />
+    </references>
+  </metadata>
+</package>
